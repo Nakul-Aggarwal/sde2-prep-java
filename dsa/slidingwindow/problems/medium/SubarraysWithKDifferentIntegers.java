@@ -1,0 +1,15 @@
+public class SubarraysWithKDifferentIntegers {
+    // TODO: Implement Subarrays with K different integers
+    // Problem: Given an integer array nums and an integer k, return the number of good subarrays of nums.
+    // A good array is an array where the number of different integers in that array is exactly k.
+    // For example, [1,2,3,1,2] has 3 different integers: 1, 2, and 3.
+    // A subarray is a contiguous part of an array.
+
+    // Pseudo code:
+    // - Sliding window
+
+    public int subarraysWithKDistinct(int[] nums, int k) {
+        // TODO: Implement
+        return 0;
+    }
+}

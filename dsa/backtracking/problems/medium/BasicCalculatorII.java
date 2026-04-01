@@ -1,0 +1,14 @@
+public class BasicCalculatorII {
+    // TODO: Implement Basic calculator II
+    // Problem: Given a string s which represents an expression, evaluate this expression and return its value.
+    // The integer division should truncate toward zero.
+    // You may assume that the given expression is always valid. All intermediate results will be in the range of [-231, 231 - 1].
+
+    // Pseudo code:
+    // - Stack
+
+    public int calculate(String s) {
+        // TODO: Implement
+        return 0;
+    }
+}

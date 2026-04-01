@@ -1,0 +1,14 @@
+public class PartitionLabels {
+    // TODO: Implement Partition labels
+    // Problem: You are given a string s. We want to partition the string into as many parts as possible so that each letter appears in at most one part.
+    // Note that the partition is done so that after concatenating all the parts in order, the resultant string should be s.
+    // Return a list of integers representing the size of these parts.
+
+    // Pseudo code:
+    // - Greedy
+
+    public List<Integer> partitionLabels(String s) {
+        // TODO: Implement
+        return new ArrayList<>();
+    }
+}
