@@ -1,0 +1,91 @@
+Step 1: Identify Nouns
+
+- Nouns:
+    - Library
+    - Book
+    - BookCopy
+    - User
+    - Librarian
+    - Inventory
+    - Borrorw
+    - Return
+
+- Potential Classes:
+    - Library
+    - Book
+    - BookCopy
+    - User
+    - Librarian
+
+Step 2: Convert Nouns to Entities
+
+- Book
+    - bookId
+    - title
+    - author
+
+- BookCopy
+
+- User
+    - userId
+    - name
+    - borrowedBooks
+    - role
+
+- enum role
+    - MEMBER
+    - Librarian
+
+
+Final UML:
+
++--------------------+
+| LibraryService     |
++--------------------+
+| searchBook()       |
+| borrowBook()       |
+| returnBook()       |
++--------------------+
+
+          |
+          |
+          v
+
++--------------------+
+| Library            |
++--------------------+
+| List<Book>         |
++--------------------+
+
+          |
+          |
+          v
+
++--------------------+
+| Book               |
++--------------------+
+| id                 |
+| title              |
+| author             |
+| List<BookCopy>     |
++--------------------+
+
+          |
+          |
+          v
+
++--------------------+
+| BookCopy           |
++--------------------+
+| copyId             |
+| status             |
++--------------------+
+
++--------------------+
+| User               |
++--------------------+
+| userId             |
+| name               |
+| borrowedBooks      |
++--------------------+
+

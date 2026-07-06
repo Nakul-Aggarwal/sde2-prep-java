@@ -1,0 +1,14 @@
+For V1 let's assume:
+
+1. Two players
+2. 3x3 board
+3. Alternate turns
+4. Player chooses row and column
+5. Detect winner
+6. Detect draw
+7. Console-based
+
+No AI.
+No multiplayer.
+No undo.
+No timer.

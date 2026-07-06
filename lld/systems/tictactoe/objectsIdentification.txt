@@ -1,0 +1,15 @@
+Nouns:
+    - Player
+    - Board
+    - Cell
+    - Game
+    - Move
+    - Symbol
+
+Classes:
+    - Player
+    - Board
+    - enum Symbol
+    - Game
+    - Cell
+    

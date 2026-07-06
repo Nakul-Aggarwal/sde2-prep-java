@@ -1,0 +1,24 @@
+Design a Library Management System
+
+Requirements
+
+- A library contains books.
+
+Users can:
+
+- Search a book.
+- Borrow a book.
+- Return a book.
+- View borrowed books.
+
+Librarian can:
+
+- Add a book.
+- Remove a book.
+- View inventory.
+
+Constraints:
+
+- A book can have multiple copies.
+- A user cannot borrow more than 5 books.
+- A book copy can only be issued to one user at a time.

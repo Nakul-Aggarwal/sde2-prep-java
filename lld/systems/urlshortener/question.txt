@@ -1,0 +1,6 @@
+// Build a backend service for a URL shortener application. The system should allow users to shorten URLs and retrieve the original URL from the short version.
+
+// POST /shorten: Accepts a long URL and returns a short URL. Ensure that the short URL is unique.
+// GET /:shortUrl: Redirects the user to the original URL associated with the given short URL.
+
+// Use NoSQL database for storing the URLs
